@@ -13,4 +13,14 @@ import Foundation
 
 class SelfDrivingCar : Car {
     
+    //Telling our self drive car the address,i.e creating a property
+    var destination = "345 Park Ave"
+    
+    //override method will override super class drive method
+    override func drive() {
+        //super keyword to refer the car class method
+        super.drive()
+        
+        print("Driving towards " + destination)
+    }
 }
