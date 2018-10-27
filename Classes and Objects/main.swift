@@ -9,8 +9,15 @@
 import Foundation
 
 //Calling the Car class and creating an object
-let myCar = Car()
+            //Adding the initializer
+let myCar = Car(customerChosenColor: "Red")
 
 print(myCar.color)
 print(myCar.numberOfSeats)
 print(myCar.typeOfCar)
+
+//Changing the proprty of the calls (first method)
+//myCar.color = "Red"
+//print(myCar.color)
+
+

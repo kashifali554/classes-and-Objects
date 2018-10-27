@@ -22,5 +22,9 @@ class Car {
     //Calling the enums
     var typeOfCar : CarType = .Coupe
     
-    
+    //Creating the custom initialization
+    //Init tells that what would happen, if a new object is created from class blue print
+    init(customerChosenColor : String) {
+        color = customerChosenColor
+    }
 }
