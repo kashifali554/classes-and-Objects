@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
+//Calling the Car class and creating an object
+let myCar = Car()
 
+print(myCar.color)
+print(myCar.numberOfSeats)
+print(myCar.typeOfCar)

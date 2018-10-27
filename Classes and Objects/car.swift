@@ -21,4 +21,6 @@ class Car {
     var numberOfSeats = 5
     //Calling the enums
     var typeOfCar : CarType = .Coupe
+    
+    
 }
