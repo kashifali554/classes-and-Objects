@@ -22,7 +22,9 @@ import Foundation
 
 let mySelfDrivingCar = SelfDrivingCar()
 
-print(mySelfDrivingCar.color)
+//print(mySelfDrivingCar.color)
+
+mySelfDrivingCar.destination = "1 Hacker Way"
 mySelfDrivingCar.drive()
 
 //print(myCar.color)
