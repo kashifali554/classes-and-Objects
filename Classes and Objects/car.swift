@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+//Enums are customized data type that you create
+enum CarType {
+    case    Sedan
+    case    Coupe
+    case    Hatchback
+}
+
+class Car {
+    
+    var color = "Black"
+    var numberOfSeats = 5
+    //Calling the enums
+    var typeOfCar : CarType = .Coupe
+}
