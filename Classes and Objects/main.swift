@@ -10,19 +10,29 @@ import Foundation
 
 //Calling the Car class and creating an object
             //Adding the initializer
-let myCar = Car()
+//let myCar = Car()
 
 //Car created with convience init
-let someNewCar = Car(customerChoesnColor: "Gold")
+//let someNewCar = Car(customerChoesnColor: "Gold")
 
-print(myCar.color)
-print(myCar.numberOfSeats)
-print(myCar.typeOfCar)
+//calling the drive method
+//myCar.drive()
 
+//Creating a new object from self driving car that will inhert it's functionality from Car class
 
-print(someNewCar.color)
-print(someNewCar.numberOfSeats)
-print(someNewCar.typeOfCar)
+let mySelfDrivingCar = SelfDrivingCar()
+
+print(mySelfDrivingCar.color)
+mySelfDrivingCar.drive()
+
+//print(myCar.color)
+//print(myCar.numberOfSeats)
+//print(myCar.typeOfCar)
+//
+//
+//print(someNewCar.color)
+//print(someNewCar.numberOfSeats)
+//print(someNewCar.typeOfCar)
 
 //Changing the proprty of the calls (first method)
 //myCar.color = "Red"

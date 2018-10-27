@@ -37,4 +37,9 @@ class Car {
         
     }
     
+    //Creating a method to add functionality to the car
+    func drive() {
+        print("Bhrummm, car is moving")
+    }
+    
 }
