@@ -10,11 +10,19 @@ import Foundation
 
 //Calling the Car class and creating an object
             //Adding the initializer
-let myCar = Car(customerChosenColor: "Red")
+let myCar = Car()
+
+//Car created with convience init
+let someNewCar = Car(customerChoesnColor: "Gold")
 
 print(myCar.color)
 print(myCar.numberOfSeats)
 print(myCar.typeOfCar)
+
+
+print(someNewCar.color)
+print(someNewCar.numberOfSeats)
+print(someNewCar.typeOfCar)
 
 //Changing the proprty of the calls (first method)
 //myCar.color = "Red"
